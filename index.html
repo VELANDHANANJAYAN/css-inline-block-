@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPLORER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>Explorer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Bike Rentals</a></li>
+                <li><a href="#">Restaurants</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div id="hero-text">
+            <p>Your Adventure Travel Expert in the <span class="highlight">SOUTH</span></p>
+            <select class="options">
+                <option>Select a Destination</option>
+                <option>Pollachi</option>
+                <option>Thanjavur</option>
+                <option>Chidambaram</option>
+            </select>
+            <button class="button1">Explore</button>
+        </div>
+        <div id="hero-image">
+            <img src="./assets/image 6.jpg" alt="Adventure Travel">
+        </div>
+    </section>
+    <section id="destinations"></section>
+        <div class="class1">
+            <p>Destinations</p>
+            <p>Just for you. Because you and your bike are special to us!</p>
+        </div>
+        <div class="destination-card">
+            <img src="./assets/image 2.jpg" alt="Pollachi" >
+            <h4>Never Ending Paddy Fields and Narrow Roads</h4>
+            <p>Pollachi</p>
+            <button>Read More</button>
+        </div>
+        <div class="destination-card">
+            <img src="./assets/image 5.jpg" alt="Thanjavur">
+            <h4>Small Ride across town in mid summer heat</h4>
+            <p>Thanjavur</p>
+            <button>Read More</button>
+        </div>
+        <div class="destination-card">
+            <img src="./assets/images 4.jpeg" alt="Chidambaram">
+            <h4>Catching a Short Break at the Lotus Pond</h4>
+            <p>Chidambaram</p>
+            <button>Read More</button>
+        </div>
+    </section>
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="home-town">Your Home Town</label>
+            <select id="home-town" name="home-town">
+                <option>Choose</option>
+            </select>
+            <label for="destination">Where would you like to go?</label>
+            <select id="destination" name="destination">
+                <option>Choose</option>
+            </select>
+            <label for="contact-number">Contact Number</label>
+            <input type="text" id="contact-number" name="contact-number">
+            <button type="submit">Submit Interest</button>
+        </form>
+    </section>
+</body>
+</html>
