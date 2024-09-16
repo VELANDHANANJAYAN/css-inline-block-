@@ -38,9 +38,9 @@ nav ul li a {
     overflow: hidden;
 }
 #hero-text {
-    margin-left: 70px;
-    font-size: 65px;
-    width: 40%;
+    /* margin-left: 70px; */
+    font-size: 35px;
+    width: 60%;
     float: left;
 }
 #hero-text h2 {
@@ -129,14 +129,14 @@ form button {
     width:50%;
     position:absolute;
     left:200px;
-    top:650px;
+    top:534px;
     font-size:xx-large;
     background-color:white;
     color:black;
 }
 .button1{
     position:absolute;
-    top:700px;
+    top:589px;
     left:200px;
     font-size: 30px;
     background-color:purple;
